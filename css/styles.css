@@ -19,7 +19,7 @@ img {
 .photos.btn,
 .contact.btn {
   background: #e5e6e8;
-  border: 2px solid var(--primarycolour);
+  border: 1px solid var(--primarycolour);
 }
 .container {
   max-height: 100%;
