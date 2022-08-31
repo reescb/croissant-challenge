@@ -1,9 +1,30 @@
 img {
-  width: 300px;
+  width: 450px;
   display: block;
   margin: 0 auto;
+  border-radius: 4px;
 }
 .pages {
   display: flex;
   justify-content: space-evenly;
+}
+
+.page-photos {
+  display: flex;
+}
+
+.flaky {
+  width: 300px;
+}
+
+.container {
+  background: white;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: lightslategray;
 }
