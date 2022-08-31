@@ -1,20 +1,26 @@
+:root {
+  --primarycolour: lightslategrey;
+  --box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
 img {
   width: 450px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
+  box-shadow: var(--box-shadow);
 }
 .pages {
   display: flex;
   justify-content: space-evenly;
 }
 
-.page-photos {
-  display: flex;
+.container {
+  max-height: 100%;
 }
 
-.flaky {
-  width: 300px;
+.page-photos {
+  display: flex;
 }
 
 .container {
@@ -26,5 +32,5 @@ html,
 body {
   height: 100%;
   margin: 0;
-  background: lightslategray;
+  background: var(--primarycolour);
 }
